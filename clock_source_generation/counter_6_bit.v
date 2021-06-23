@@ -1,5 +1,10 @@
 `timescale 1ns / 1ps
 
+/*---------------------------------------------------
+* 6-bit synchronized binary counter 
+* Active high reset 
+---------------------------------------------------*/
+
 module counter_6_bit(count, clk, reset, out, next);
 
 	input count, clk, reset;
