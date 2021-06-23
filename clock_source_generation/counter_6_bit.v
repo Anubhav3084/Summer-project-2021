@@ -11,7 +11,7 @@ module counter_6_bit(count, clk, reset, out, next);
 	output [5:0]out;
 	output next;
 	
-	wire T2, T3;
+	wire T2, T3, T4, T5, T6;
 	
 	TFF tff_1 (
 	.T(count),
