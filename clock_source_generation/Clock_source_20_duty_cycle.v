@@ -47,8 +47,8 @@ module Clock_source_20_duty_cycle(start, clk, reset, Fsw);
 	.A(cnt_7_bit_val),
 	.B(pres7_1),
 	.gt(Fsw),
-	.lt(abc),
-	.eq(efg)
+	.lt(abc),	// not required
+	.eq(efg)	// not required
 	);
 	
 	
